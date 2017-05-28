@@ -30,6 +30,8 @@ spring:
   http:
     converters:
       preferred-json-mapper: fastjson
+endpoints:
+  sensitive: false
 
 ###################  mybatis-plus配置  ###################
 mybatis-plus:
